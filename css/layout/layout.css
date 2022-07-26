@@ -1,0 +1,17 @@
+.l-preview-cards {
+    height: 500px;
+    width: 925px;        
+    margin: 24px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 720px) {
+    .l-preview-cards {
+        height: auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        grid-template-columns: 1fr;
+    }
+}
